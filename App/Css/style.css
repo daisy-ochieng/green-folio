@@ -1,0 +1,897 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'san-serif';
+}
+
+/* variables */
+:root{
+    --main-color: #0fbf61;
+    --main-green: #8bf19e;
+    --black: #000;
+    --white:#fff;
+}
+
+/* navigation section */
+.songesha{
+    position: relative;
+    left: -190px;
+}
+header{
+    height: 6rem;
+    width: 100%;
+    background-color:var(--white) ;
+}
+
+header nav{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 60px;
+    font-weight: bold;
+
+}
+
+header nav span{
+    background-color: var(--main-color);
+    color: var(--white);
+    border-radius: 3px;
+    padding: 2px 5px;
+}
+
+header nav div ul{
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+    list-style: none;
+    justify-content: space-between;
+    font-weight: bold;
+}
+
+.hire-me{
+    height: 2.5rem;
+    width: 6rem;
+    background-color: var(--white);
+    border-radius: 3px;
+    color: var(--main-color);
+    font-weight: bold;
+    z-index: 100;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    left: -65px;
+}
+
+/* hero section */
+.button{
+    background-color: #dfd;
+    color: var(--main-color);
+    height: 2rem;
+    width: 8rem;
+    align-items: center;
+    padding: 5px 10px;
+}
+
+.font{
+    font-weight: bold;
+}
+
+.background{
+    border-radius: 3px;
+    background-color: var(--main-color);
+    color: var(--white);
+    height: 2.5rem;
+    width: 6rem;
+    outline: none;
+    margin-right: 1rem;
+}
+
+.explore{
+    border-radius: 3px;
+    border-width: 2px;
+    background-color: var(--white);
+    color: var(--black);
+    height: 2.5rem;
+    width: 6rem;
+}
+
+
+.gap{
+    padding: 10px 150px;
+    position: relative;
+    top: -150px;
+}
+
+.hero{
+    position: relative;
+    top: 50px;
+}
+
+.hero .image-side{
+    display: grid;
+    grid-template-columns: 2fr 3fr 4fr;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--main-color);
+    border-radius: 50rem;
+    height: 60rem;
+    width: 35rem;
+    -webkit-transform: rotate(60deg);
+    position: relative; right: -1140px;bottom: 800px;
+    border: 22px solid white;
+}
+
+.hero .image-side .circle{
+    height: 20rem;
+    width: 20rem;
+    background-color: #ebdfdf;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    -webkit-transform: rotate(300deg);
+    position: relative; right: -50px; top: 190px;
+    border: 22px solid white;
+    position: relative;
+    bottom: 800px;
+    right: -80px;
+}
+
+.hero .image-side .circle img{
+    height: 25rem;
+    width: 25rem;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 2rem solid white;
+}
+
+.matings{
+    position: relative;
+    left: 20px;
+    list-style: none;
+}
+
+.fb{
+    position: relative;
+    bottom: -15px;
+}
+
+.fb:hover{
+    background-color: var(--main-color);
+    border-radius: 50px;
+    height: 1.5rem;
+    width: 3rem;
+}
+
+.likin{
+    position: relative;
+    bottom: -25px;
+}
+
+.twit{
+    position: relative;
+    bottom: -40px;
+}
+
+.about-me{
+    background-color: #dfd;
+    color: var(--main-color);
+    height: 2rem;
+    width: 8rem;
+    align-items: center;
+    padding: 5px 10px;
+    margin-bottom: 50px;
+}
+
+/* about section */
+.about-section{
+    position: relative;
+    top: -600px;
+}
+
+.paragraph{
+    position: relative;
+    top: -800px;
+    left: 650px;
+    
+}
+
+.about-class{
+    position: relative;
+    top: -850px;
+    left: 650px;
+}
+
+.about-button{
+    background-color: var(--main-color);
+    color: var(--white);
+    border-radius: 4px;
+    height: 3rem;
+    width: 9rem;
+    outline: none;
+    margin-right: 1rem;
+    position: relative;
+    top: -750px;
+    left: 650px;
+}
+
+.bellingham{
+    height: 30rem;
+    width: 30rem;
+    padding: 10px 60px;
+    position: relative;
+    top: -25rem;
+    right: -100px;
+}
+
+.dotted-rectangle{
+    position: relative;
+    top: -1300px;
+    left: 330px;
+    z-index: -10;
+}
+
+.empty-circle{
+    height: 200px;
+    width: 200px;
+    display: inline-block;
+    border: solid 15px;
+    border-radius: 100px;
+    border-color: var(--main-color);
+    position: relative;
+    right: -80px;
+    top: -300px;
+    z-index: 10;
+}
+/*  progressive section */ 
+
+.con{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    gap: 150px;
+    margin: 180px;
+    margin-bottom: 900px;
+    top: -800px;
+}
+
+.fifty{
+    border-radius: 50%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 160px;
+    width: 160px;
+    background: 
+    radial-gradient(closest-side, rgb(255, 255, 255) 94%, transparent 80% 100%),
+    conic-gradient(green 50%, rgb(252,251,251) 0);
+    position: relative;
+    top: -1000px;
+}
+
+.fifty-1{
+    border-radius: 50%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 160px;
+    width: 160px;
+    background: 
+    radial-gradient(closest-side, rgb(255, 255, 255) 94%, transparent 80% 100%),
+    conic-gradient(green 75%, rgb(252,251,251) 0);
+    position: relative;
+    top: -1000px;  
+}
+
+.fifty-2{
+    border-radius: 50%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 160px;
+    width: 160px;
+    background: 
+    radial-gradient(closest-side, rgb(255, 255, 255) 94%, transparent 80% 100%),
+    conic-gradient(green 20%, rgb(252,251,251) 0);
+    position: relative;
+    top: -1000px;
+}
+
+.fifty-3{
+    border-radius: 50%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 160px;
+    width: 160px;
+    background: 
+    radial-gradient(closest-side, rgb(255, 255, 255) 94%, transparent 80% 100%),
+    conic-gradient(green 50%, rgb(252,251,251) 0);
+    position: relative;
+    top: -1000px;
+}
+
+.hamsini{
+    position: relative;
+    bottom: -50px;
+}
+
+.sabini{
+    position: relative;
+    bottom: -50px;
+}
+
+.gefao{
+    position: relative;
+    bottom: -50px;
+}
+
+.zachwe{
+    position: relative;
+    bottom: -50px;
+}
+
+/* service section */
+.transform{
+    position: relative;
+    top: -2600px;
+    right: -700px;
+}
+
+.feathers{
+    position: relative;
+    top: -40px;
+    left: -50px;
+}
+
+/* multi section */
+.multi{
+    height: 400px;
+    width: 350px;
+    background-color: rgb(239, 243, 239);
+    border-radius: 15px;
+    position: relative;
+    top: -1500px;
+    right: -175px;
+}
+
+.image{
+    position: relative;
+    bottom: -60px;
+    left: 35px; 
+    mask-image: var(--main-color);
+}
+
+.round{
+    border-radius: 100px;
+    border: solid 4px;
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+    border-color: var(--main-green);
+    position: relative;
+    top: -25px;
+    left: 20px;
+}
+
+.web{
+    position: relative;
+    top: -15px;
+    left: 20px;
+}
+
+.dots{
+    position: relative;
+    top: -20px;
+    right: -5px; 
+    color: var(--main-green);
+    left: 20px; 
+    top: 10px;
+}
+
+.button-button{
+    background-color: var(--main-green);
+    color: var(--white);
+    border-radius: 4px;
+    height: 2rem;
+    width: 7rem;
+    outline: none;
+    margin-top: 2rem; 
+    position: relative;
+    left: 20px;
+    top: 20px;
+}
+
+.multi-paragraph{
+    position: relative;
+    left: 20px;
+    top: 15px;
+}
+
+.multi:hover{
+    background-color: var(--main-color);
+    color: var(--white);
+    transition: all ease-in-out, 0.5s;
+    border: solid 1px var(--main-color);
+
+}
+
+.move2{
+    position: relative;
+    top: -400px;
+    right: -480px;
+}
+
+.move3{
+    position: relative;
+    top: -800px;
+    right: -950px;
+}
+
+.lets-move{
+    position: relative;
+    top: -1850px;
+    left: -35px;
+}
+
+.move-lets{
+    position: relative;
+    left: -35px;
+    top: -1100px;
+}
+
+.rec-dot{
+    position: relative;
+    top: -2620px;
+    left: 1290px;
+    z-index: -10;
+}
+
+/* Skill section */
+.twende{
+    position: relative;
+    top: -1200px;
+}
+
+.design{
+    position: relative;
+    top: -3300px;
+    left: 160px;
+}
+
+.expertise{
+    position: relative;
+    top: -3300px;
+    left: 160px;
+}
+
+.move-about{
+    position: relative;
+    top: 35px;
+}
+
+.graphic{
+    position: relative;
+    top: -3400px;
+    left: 600px;
+}
+
+.development{
+    position: relative;
+    top: -3497px;
+    left: 1100px;
+}
+
+.prog{
+    width: 300px;
+    height: 5px;
+    border: none;
+    background-color: #dfd;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+.prog::-moz-progress-bar{
+    background-color: var(--main-color);
+}
+
+.margin{
+    margin-bottom: 5px;
+}
+
+.it-move{
+    position: relative;
+    top: -130px;
+}
+
+.about-hire{
+    background-color: var(--main-color);
+    color: var(--white);
+    border-radius: 4px;
+    height: 3rem;
+    width: 9rem;
+    outline: none;
+    position: relative;
+    top: -3350px;
+    left: 1250px;
+}
+
+.straight{
+    display: flex;
+    justify-items: center;
+    gap: 1.5rem;
+    list-style: none;
+}
+
+/* portfolio */
+.Portolio{
+    position: relative;
+    top: -4700px;
+    left: 650px;
+}
+
+.mara-mbili{
+    display: flex;
+    flex-direction: row;
+    gap: 1.5rem;
+    position: relative;
+    top: 300px;
+}
+
+.mara-mbili-2{
+    display: flex;
+    flex-direction: row;
+    gap: 1.5rem;
+    position: relative;
+    top: -950px;
+}
+
+.relative{
+    position: relative;
+    left: -40px;
+    top: -35px;
+}
+
+.rela{
+    position: relative;
+    top: -15px;
+    left: -80px;
+}
+
+.assets{
+    position: relative;
+    left: -500px;
+    top: 200px;
+}
+
+.division{
+    background: #0fbf61;
+    height: 400px;
+    width: 400px;
+    color: white;
+    position: relative;
+    top: -403px;
+    opacity: 0%;
+}
+
+.division:hover{
+    opacity: 90%;
+}
+
+.more{
+    border: none;
+    background-color: #fff;
+    height: 2rem;
+    width: 8rem;
+    align-items: center;
+    position: relative;
+    left: 35px;
+    bottom: -200px;
+}
+
+.lorem{
+    position: relative;
+    left: 35px;
+    bottom: -160px;
+}   
+
+.jquery{
+    position: relative;
+    left: 35px;
+    bottom: -130px;
+}
+
+.applic{
+    position: relative;
+    left: 35px;
+    bottom: -120px;
+}
+
+.moving{
+    position: inherit;
+    left: 80px;
+}
+
+.view{
+    position: relative;
+    top: -600px;
+    left: 50px;
+    height: 3.5rem;
+    width: 11rem;
+    background-color: var(--main-color);
+    color: #fff;
+    border-radius: 5px;
+}
+
+/* Testimonial section */
+.dolor{
+    position: relative;
+    top: -5200px;
+    left: 710px;
+}
+
+.Test{
+    background-color: #dfd;
+    color: var(--main-color);
+    height: 2rem;
+    width: 10rem;
+    align-items: center;
+    padding: 5px 10px;
+    margin-bottom: 10px;
+}
+
+.people{
+    position: relative;
+    left: -15px;
+}
+
+.webkit{
+    position: relative;
+    -webkit-transform: rotate(180deg);
+    left: -1440px; 
+    top: 20px;
+    margin-bottom: 10px; 
+}
+
+.prg{
+    position: relative;
+    left: -135px;
+    margin-bottom: 25px;
+}
+
+.now{
+    position: relative;
+    left: -45px;
+}
+
+.joe{
+    position: relative;
+    left: 30px;
+}
+
+.img2{
+    position: relative;
+    left: -850px;
+    top: -500px;
+}
+/* Blog section */
+.section--{
+    position: relative;
+    top: -5500px;
+    left: 730px;
+}
+
+.blogs{
+    background-color: #dfd;
+    color: #0fbf61;
+    height: 1.5rem;
+    width: 6rem;
+    padding: 5px 12px;
+    margin-bottom: 20px;
+}
+
+.news{
+    position: relative;
+    left: -45px;
+    margin-bottom: 20px;
+}
+
+.adobe{
+    position: relative;
+    left: -500px;
+    height: 375px;
+    width: 300px;
+    background-color: #dfd;
+}
+
+.day{
+    position: relative;
+    left: 12px;
+}
+
+.october{
+    position: relative;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.kmore{
+    position: relative;
+    margin-top: 15px;
+    border: none;
+    color: var(--main-green);
+    background-color: white;
+}
+
+.adobe2{
+    position: relative;
+    left: -80px;
+    top: -375px;
+    height: 375px;
+    width: 300px;
+    background-color: #dfd;
+}
+
+.adobe3{
+    position: relative;
+    left: 340px;
+    top: -750px;
+    height: 375px;
+    width: 300px;
+    background-color: #dfd;
+}
+
+.vall{
+    position: relative;
+    left: -355px;
+    top: 55px;
+    height: 3rem;
+    width: 9.5rem;
+    border: none;
+    background-color: #0fbf61;
+    color: #fff;
+    border-radius: 5px;
+}
+
+/* contact section */
+.conta{
+    position: relative;
+    top: -6050px;
+    left: 730px;
+}
+
+.mimi{
+    background-color: #dfd;
+    color: var(--main-color);
+    height: 2rem;
+    width: 9rem;
+    padding: 5px 10px;
+    margin-bottom: 5px;
+}
+
+.send{
+    position: relative;
+    left: -30px;
+}
+
+.nepbm{
+    margin-top: 30px;
+    position: relative;
+    left: -520px;
+}
+
+.eman{
+    position: relative;
+    height: 5rem;
+    width: 37rem;
+}
+
+.liame{
+    position: relative;
+    height: 5rem;
+    width: 37rem;
+    left: 645px;
+    top: -78px;
+}
+
+.phone{
+    position: relative;
+    height: 5rem;
+    width: 37rem;
+    top: -55px;
+}
+
+.budget{
+    position: relative;
+    height: 5rem;
+    width: 37rem;
+    left: 645px;
+    top: -130px;
+}
+
+.messo{
+    position: relative;
+    height: 8rem;
+    width: 77.4rem;
+    top: -100px;
+}
+
+.dens{
+    position: relative;
+    height: 3rem;
+    width: 12rem;
+    background-color: var(--main-color);
+    color: #fff;
+    border-radius: 5px;
+    left: -20px;
+    top: -40px;
+}
+
+.src{
+    position: relative;
+    left: 500px;
+    top: -500px;
+    z-index: -10;
+}
+
+/* footer */
+.footer{
+    position: relative;
+    top: -6600px;
+    left: 100px;
+}
+
+.flio{
+    background-color: var(--main-color);
+    color: white;
+}
+
+.mvtt{
+    position: relative;
+    left: 750px;
+    top: -140px;
+}
+
+.foliospan{
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.mail{
+    position: relative;
+    left: 600px;
+    top: -110px;
+}
+
+.color{
+    color: var(--main-color);
+}
+
+.make-call{
+    position: relative;
+    left: 880px;
+    top: -160px;
+}
+
+.get-touch{
+    position: relative;
+    left: 1100px;
+    top: -210px;
+}
+
+.daro{
+    position: relative;
+    left: 10px;
+}
+
+.inky{
+    position: relative;
+    top: -6760px;
+    height: 7rem;
+    width: 100rem;
+    background-color: #fff;
+}
